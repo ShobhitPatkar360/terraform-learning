@@ -1,0 +1,47 @@
+# github_repository.my_repo:
+resource "github_repository" "my_repo" {
+    allow_auto_merge            = false
+    allow_merge_commit          = true
+    allow_rebase_merge          = true
+    allow_squash_merge          = true
+    allow_update_branch         = false
+    archived                    = false
+    default_branch              = "main"
+    delete_branch_on_merge      = false
+    description                 = "This is first repository, made from terraform"
+    etag                        = "W/\"c517b793677523bb56b6f4f0ed2c96d4dc1936c38cf06e0d545b5dbc31e34ef9\""
+    full_name                   = "ShobhitPatkar360/First-terraform-repository"
+    git_clone_url               = "git://github.com/ShobhitPatkar360/First-terraform-repository.git"
+    has_discussions             = false
+    has_downloads               = false
+    has_issues                  = false
+    has_projects                = false
+    has_wiki                    = false
+    html_url                    = "https://github.com/ShobhitPatkar360/First-terraform-repository"
+    http_clone_url              = "https://github.com/ShobhitPatkar360/First-terraform-repository.git"
+    id                          = "First-terraform-repository"
+    is_template                 = false
+    merge_commit_message        = "PR_TITLE"
+    merge_commit_title          = "MERGE_MESSAGE"
+    name                        = "First-terraform-repository"
+    node_id                     = "R_kgDOMTn-Ow"
+    private                     = false
+    repo_id                     = 825884219
+    squash_merge_commit_message = "COMMIT_MESSAGES"
+    squash_merge_commit_title   = "COMMIT_OR_PR_TITLE"
+    ssh_clone_url               = "git@github.com:ShobhitPatkar360/First-terraform-repository.git"
+    svn_url                     = "https://github.com/ShobhitPatkar360/First-terraform-repository"
+    topics                      = []
+    visibility                  = "public"
+    vulnerability_alerts        = false
+    web_commit_signoff_required = false
+
+    security_and_analysis {
+        secret_scanning {
+            status = "enabled"
+        }
+        secret_scanning_push_protection {
+            status = "enabled"
+        }
+    }
+}

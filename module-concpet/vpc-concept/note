@@ -1,0 +1,22 @@
+Tips for good infrasturecture creation
+1. Create a tree to consider all the essesntials 
+2. Try to give the hard code for the moduel if possible
+3. Firstl create one instance from the modudle then make other
+4. Try to use the output block and do commnet 
+5. Continue to write the mistakes you do as I am doing following
+
+Here I am going to write the mistakes I did
+1. I declared a variable 2 times
+2. I did not write var before the variable
+3. I have to privide the id of  an resource but I did typo like "aws_security_group.tg-subnet" here I forgotten .id
+4. For the ingress rule of ICMP, I did not provided the proper ports => -1 , last time it was 22, that's why it was showing duplicate
+5. I had created a module resoruce (security goup). I have to give the sg id in module aspect (aws_security_group.tg_sg.id) but I was giving in root level aspect (sg_id).
+6. I did not gave ip protocol = icmp, I had written tcp (for tcp, I can give the range)
+
+In this project i learnt how i can create a strucutre 
+in next project I will create a public environment, dynamic ami
+in next project I will create a an hybrid environment
+in next project i will create a transit gateway
+
+
+

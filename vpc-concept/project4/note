@@ -1,0 +1,8 @@
+Here we have module for making vpc's.
+Each vpc there exist a subnet
+we can decide whether a subnet needs to be public or private.
+We are going to make 1 public subnet and 4 private subnet
+
+terraform automation process
+we will create a transit gateway.
+In each vpc, we will create a route table entry and an attatchment to transit gateway T

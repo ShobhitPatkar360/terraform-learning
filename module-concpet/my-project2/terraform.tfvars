@@ -1,0 +1,8 @@
+parent-ami-id         = "ami-04a81a99f5ec58529"
+parent-instance-type  = "t2.micro"
+parent-instance1-key  = "my-key1"
+parent-instance2-key  = "my-key2"
+parent-instance1-name = "first-server"
+parent-instance2-name = "second-server"
+parent-instance1-env  = "development"
+parent-instance2-env  = "production"
