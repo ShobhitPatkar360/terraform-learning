@@ -1,0 +1,21 @@
+here in this project, we had implemented the following concepts
+  - Modules
+  - EC2
+  - Key pair
+  - Security Group
+
+When we talk about module we did the following
+  - Created moudle and made multiple instances of module
+  - Created local variables in module and provided Arguments to module variables
+  - Output the the values from modules
+
+We had worked about backend
+  - We had created an S3 backend, for which we had installed aws cli at terminal
+  - We had manually created a bucket, bucket from terraform was not being created.
+
+Further we will work on migration and locing mechanisme, prefer project2. I am leaving this project as it is.
+
+Things to learn in terraform
+  - creating vpc using terraform
+  - creating s3 bucket using terraform
+  - Sourcing the dynamic ami id 

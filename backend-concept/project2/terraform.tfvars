@@ -1,0 +1,5 @@
+p-ami-id        = "ami-04a81a99f5ec58529"
+p-instance-type = "t2.micro"
+p-instance-name = "my-server4"
+p-key-name      = "my-aws-pub-key"
+p-env           = "production"

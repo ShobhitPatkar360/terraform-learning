@@ -1,0 +1,5 @@
+p-ami-id        = "ami-04a81a99f5ec58529"
+p-instance-type = "t2.micro"
+p-instance-name = "backend-test-server"
+p-key-name      = "buck-buck-key"
+p-env           = "production"
